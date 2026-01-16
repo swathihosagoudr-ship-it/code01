@@ -1,3 +1,3 @@
-import sys;
-c = float(sys.argv[1]);
-print(f"{(c * 9/5) + 32} F")
+
+def celsius_to_fahrenheit(c):
+    return (c * 9/5) + 32
